@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optiflow-calibrator" # PyPI에 등록될 고유한 이름 (소문자, 하이픈 권장)
+version = "0.1.0"
+authors = [
+  { name="홍길동", email="your.email@example.com" },
+]
+description = "A traffic network calibration and optimization tool."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=1.0.0",
+    "numpy>=1.18.0",
+    "aequilibrae>=0.9.0", # 의존성 패키지 명시
+]

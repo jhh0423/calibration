@@ -1,3 +1,5 @@
 ﻿raw data/
 raw_data/
+dist/
+*.egg-info/
 

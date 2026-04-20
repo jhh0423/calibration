@@ -1,0 +1,18 @@
+# Write down the column names of your data
+
+od_data:
+  file_name: od_data.csv    # The file name for the origin-destination data
+  column_names:
+    origin: Origin    # The column name for the origin
+    destination: Destination    # The column name for the destination
+    trips: Trips    # The column name for the number of trips
+
+network_data:
+  file_name: network_data.csv    # The file name for the network data
+  column_names:
+    from_node: from_node    # The column name for the starting node
+    to_node: to_node    # The column name for the ending node
+    speed: speed    # The column name for the speed of the connection
+    capacity: capacity    # The column name for the capacity of the connection
+    vdf: vdf    # The column name for the volume-delay function parameters
+    
